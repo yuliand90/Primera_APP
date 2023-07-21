@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
  //implementamos algunas funciones de ciclo de vida OnInit y OnDestroy//
 export class InputComponent implements OnInit, OnDestroy {
   
+//ciclo de vida primero constructor nos va crear un objeto router enrutador de nuestra aplicación
   constructor(private router: Router) { }
   
   ngOnDestroy(): void {
@@ -21,6 +22,7 @@ export class InputComponent implements OnInit, OnDestroy {
 
   salir() {
     console.log("saliendo...")
+    //metodo navigate me lleva a la pagina botones//
     this.router.navigate(['/botones'])
   }
 

@@ -6,12 +6,14 @@ import { InputComponent } from './components/input/input.component';
 import { FormsModule } from '@angular/forms';
 import { MaterialModule } from '../material/material.module';
 import { BotonesComponent } from './component/botones/botones.component';
+import { ObservableComponent } from './components/observable/observable.component';
 
 
 @NgModule({
   declarations: [
     InputComponent,
-    BotonesComponent
+    BotonesComponent,
+    ObservableComponent
   ],
   imports: [
     CommonModule,

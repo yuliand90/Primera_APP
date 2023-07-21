@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InputComponent } from './components/input/input.component';
 import { BotonesComponent } from './component/botones/botones.component';
+import { ObservableComponent } from './components/observable/observable.component';
 
 const routes: Routes = [{
   path:'',
@@ -10,6 +11,10 @@ const routes: Routes = [{
 {
   path: 'botones',
   component: BotonesComponent
+},
+{
+  path: 'observable',
+  component: ObservableComponent
 }
 ];
 
